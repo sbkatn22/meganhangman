@@ -31,15 +31,4 @@ main()
     #else: 
      #   print "no"
   
-def test(letter):
-    global updatedWord
-    global letter
-    global secret
-    if letter in secret:
-        updatedWord.append(letter)
-        for i in range(0, len(secret)):
-            print (updatedWord[i]),
-        ifWon()   
-    
-    
 
